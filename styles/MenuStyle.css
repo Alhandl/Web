@@ -1,0 +1,54 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/back.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.searchBtn li{
+	list-style-type: none;
+	display: inline;
+	margin-left: 96px;
+}
+
+.searchBtn{
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px;
+	margin-top: 60px;
+}
+
+.searchBtn button{
+  appearance: none;
+  border-radius: 24px;
+  background: #FCE8D0;
+  color: #727272;
+  padding: 20px 32px;
+  font-size: 20px;
+  border: 1px solid #747070;
+}
+
+.searchBtn button:hover{
+	background: #FCC27D;
+	color: #595959;
+}
+
+.menuList{
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 60px;
+}
+
+.menuList button{
+	appearance: none;
+	border-radius: 30px;
+	background: #D9D9D9;
+	padding: 160px;
+	border: 1px solid #909090;
+	margin-left: 20px;
+}
+
+.row{
+	margin-top: 20px;
+}
